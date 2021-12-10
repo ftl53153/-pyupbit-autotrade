@@ -1,1 +1,1 @@
-# -pyupbit-autotrade
+# pyupbit-autotrade
