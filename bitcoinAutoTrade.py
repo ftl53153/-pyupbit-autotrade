@@ -53,7 +53,7 @@ while True:
         else:
             btc = get_balance("BTC")
             if btc > 0.00008:
-                upbit.sell_market_order("KRW-BTC", btc*0.9995)
+                upbit.sell_market_order("KRW-BTC", btc)
         time.sleep(1)
     except Exception as e:
         print(e)
